@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+   
+    
+    <!-- css links -->
+    
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/animate.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <title>Branding Design</title>
+</head>
+<body> 
+   <div class="wrapperOverflow">
+    <header class="header-area">
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          <div class="col-6">
+            <div class="logo">
+              <img src="./images/logosvg.svg" alt="" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-6 ">
+              <!-- header-icon area start-->
+              <div class="header-icon-area text-end d-flex justify-content-end align-items-center">
+                  <div class="cart-icon">
+                      <img src="./imgs/cartIcon.svg" alt="" class="img-fluid">
+                  </div>
+                  <div class="menu-toggle">
+                      <span></span>
+                      <span></span>
+                    </div>
+  
+              </div>
+              <!-- header-icon area end-->
+          </div>
+        </div>
+        <div class="ribbon">
+          BRANDING <span><img src="./images/StarIocn.png" alt=""></span>UI/UX DESIGN <span><img src="./images/StarIocn.png" alt=""></span> WEB DESIGN
+        </div>
+      </div>
+    </header>
+    <!--header area end -->
+    <!--heroBanner-area start-->
+    <div class="heroBanner">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="heroBannertext">
+                        <div class="topHeading">
+                          <h1 class="headingOne">Your Vision<span>High Quality</span></h1>
+            
+                        </div>
+                        <!--topHeading End-->
+                         <div class="slider-area">
+                            <div class="row">
+                              <div class="col-lg-5">
+                                <div class="swiper mySwiper">
+                                  <div class="swiper-wrapper">
+                                    <div class="swiper-slide ">
+                                        <!-- slider Image-->
+                                         <img src="./images/Casual Networking Event in Monochrome.png" alt="" class="img-fluid slider-img">
+                                    </div>
+                                    <div class="swiper-slide">
+                                      <!-- slider Image-->
+                                      <img src="./images/Casual Networking Event in Monochrome.png" alt="" class="img-fluid slider-img">
+                                    </div>
+                                    <div class="swiper-slide">
+                                      <!-- slider Image-->
+                                      <img src="./images/Casual Networking Event in Monochrome.png" alt="" class="img-fluid slider-img">
+                                    </div>
+  
+                                  </div>
+                               
+                                </div>
+                              </div>
+                              <div class="col-lg-7">
+                                <div class="midHeading">
+                                  <div class="row">
+                                    <div class="col-lg-6 text-end">
+                                      <h2 class="secHanding">Our</h2>
+                                      <img src="./images/flowerIcon.png" alt="" class="flower rotate linear infinite">
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <p>I craft websites that align with your brand and engage your audience – creating
+                                          meaningful and memorable experiences</p>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="endText">
+                                  <h2>Design</h2>
+                                </div>
+                                <div class="pagination">
+                                  <div class="swiper-pagination"></div>
+                                </div>
+                                 
+                              
+                                
+                              </div>
+                            </div>
+                           
+                         </div>
+                    </div>
+  
+    
+                </div>
+            </div>
+        </div>
+       
+    </div>
+   </div>
+  
+
+
+
+
+<section class="work">
+  <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12">
+            <div class="topTitle">
+                <h2>Lets <span><img src="./images/Union.png" alt=""></span></h2>
+            </div>
+            <div class="midTitle">
+              <h2><span><img src="./images/Collaborate with Webflow.png" alt=""></span> work</h2>
+              
+            </div>
+            <div class="lastTitle">
+              <h2>Together</h2>
+            </div>
+            <div class="talk_btn">
+              <a href="#"><img src="./images/btn.png" alt=""></a>
+              <p>info@workmail.com</p>
+            </div>
+
+        </div>
+      </div>
+  </div>
+  
+</section>
+
+
+
+
+
+
+
+
+    <!-- ============Js Links ===============-->
+    <script src="js/jquery.min.js"></script>
+   <script src="js/popper.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+    <script src="./js/index.min.js"></script>
+    <script src="./js/custom.js"></script>
+    
+
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+          renderBullet: function (index, className) {
+      // Define your thumbnail image paths
+      const images = [
+        'images/thumb1.jpg',
+        'images/thumb2.png',
+        'images/thumb3.png'
+      ];
+      return `<span class="${className}" style="background-image:url(${images[index]})"></span>`;
+    },
+        },
+      });
+
+
+
+    
+    </script>
+</body> 
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

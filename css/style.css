@@ -1,0 +1,278 @@
+/** custom font  **/
+
+@font-face {
+    font-family: 'Bingar DEMO';
+    src: url('../fonts/BingarDEMO-Regular.woff2') format('woff2'),
+        url('../fonts/BingarDEMO-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Hagrid Trial Regular';
+  font-style: normal;
+  font-weight: normal;
+  src:  url('../fonts/Hagrid-Regular-trial.woff') format('woff');
+  }
+  
+  
+
+  @font-face {
+  font-family: 'Hagrid Text Trial Extrabold';
+  font-style: normal;
+  font-weight: bold;
+  src:  url('../fonts/Hagrid-Text-Extrabold-trial.woff') format('woff');
+  }
+
+
+  .wrapperOverflow {
+    overflow: hidden;
+}
+/* General Styles for Header */
+.header-area {
+    background-color: #0C30AE;
+    position: relative;
+    padding: 28px 50px;
+}
+
+  .menu-toggle {
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .menu-toggle span {
+    display: block;
+    width: 35px;
+    height: 3px;
+    background-color: #FFFFFF;
+    margin: 5px 0;
+    transition: 0.3s;
+}
+.header-icon-area {
+    gap: 30px;
+}
+  
+  /* Ribbon Styles */
+  .ribbon {
+    position: absolute;
+    top: 219px;
+    right: -341px;
+    background: #19EC60;
+    transform: rotate(45deg);
+    font-family: "Bingar DEMO";
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+  
+  .ribbon span img {
+    width: 46px;
+    height: 46px;
+    /* transform: rotate(45deg); */
+    margin: 0px 30px;
+}
+.heroBanner {
+  background: #0044cc;
+  padding-bottom: 30px;
+}
+.image-container {
+  position: relative;
+  width: 300px;
+  overflow: hidden;
+  padding-top: 50px;
+  margin-left: 40px;
+}
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image-container .overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 44%;
+  background: #0044cc;
+  height: 35%;
+  border-radius: 45px;
+  clip-path: polygon(62% 0, 100% 0, 100% 40%, 100% 70%, 100% 58%, 64% 58%, 64% 34%, 40% 34%, 40% 0);
+}
+
+.rounded-rectangle {
+  width: 200px;
+  height: 100px;
+  background-color: #FF0000;
+  border-radius: 25px;
+  }
+
+
+  .rotate {
+    animation: rotation 2s;
+  }
+  
+  .linear {
+    animation-timing-function: linear;
+  }
+  
+  .infinite {
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+
+
+
+  .swiper-pagination {
+   position: relative; 
+   
+}
+.swiper-pagination-bullet {
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.topHeading {
+  padding-left: 50px;
+}
+.topHeading h1 {
+  color: #FFF;
+  font-family: "Hagrid Text Trial Extrabold";
+  font-size: 200px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.topHeading h1 span {
+  font-size: 30px;
+  font-weight: normal;
+  font-family: "Bingar DEMO";
+  margin-left: 10px;
+  margin-bottom: 0;
+}
+
+.secHanding {
+  color: #FFF;
+  font-family: "Hagrid Text Trial Extrabold";
+  font-size: 210px;
+  font-weight: 800;
+  margin: 0 0;
+  position: absolute;
+  left: 410px;
+  top: 276px;
+}
+.midHeading img {
+  width: 160px;
+  height: 160px;
+  margin-top: 28px;
+}
+
+.midHeading p {
+    color: #fff;
+    font-size: 20px;
+    font-family: "Bingar DEMO";
+    font-weight: normal;
+    margin-top: 60px;
+    margin-left: 27px;
+}
+
+.endText h2 {
+  color: #FFF;
+  font-family: "Hagrid Text Trial Extrabold";
+  font-size: 210px;
+  font-weight: 800;
+  margin: 0 0;
+  position: absolute;
+  top: 513px;
+}
+
+span.swiper-pagination-bullet {
+  width: 180px;
+  height: 174px;
+}
+
+
+
+
+.pagination {
+  margin-top: 294px;
+}
+
+.swiper-pagination-bullet{
+  background-color: transparent !important;
+  opacity: 100%;
+}
+
+section.work {
+  background: #19EC60;
+  padding: 60px 40px;
+}
+.topTitle {
+  padding-left: 60px;
+}
+.topTitle h2 {
+  color: #041C0C;
+  font-family: "Hagrid Text Trial Extrabold";
+  font-size: 190px;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+.midTitle {
+  padding-left: 110px;
+}
+.midTitle img {
+  width: 343px;
+  height: 227px;
+}
+
+.midTitle h2 {
+  font-size: 274px;
+  color: #041C0C;
+  font-family: "Hagrid Text Trial Extrabold";
+  /* font-weight: 800; */
+}
+
+
+.lastTitle h2 {
+
+  font-size: 220px;
+  color: #041C0C;
+  font-family: "Hagrid Text Trial Extrabold";
+  font-weight: bold;
+
+}
+
+.talk_btn {
+  text-align: center;
+  position: relative;
+}
+
+.talk_btn img {
+  width: 376px;
+  height: 376px;
+  /* text-align: center; */
+}
+
+.talk_btn p {
+  font-size: 70px;
+  font-family: "Bingar DEMO";
+  line-height: 90px;
+  position: absolute;
+  top: 163px;
+  right: 0;
+}
